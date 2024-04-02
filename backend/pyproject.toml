@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "melopsai-backend"
+version = "0.1.0"
+description = "Back end for the melopsai package in Python3"
+authors = ["snyata <core@synavate.tech>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

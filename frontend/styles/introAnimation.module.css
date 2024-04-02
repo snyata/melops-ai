@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1000;
+    transition: opacity 1s ease-out;
+  }
+  
+  .fadeOut {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .spin {
+    width: 100px; /* Adjust based on your logo's size */
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
